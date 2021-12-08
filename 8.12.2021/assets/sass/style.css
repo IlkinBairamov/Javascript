@@ -1,0 +1,60 @@
+#first-calculator-basic .container {
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+#first-calculator-basic .container #display {
+  border: 1px solid #999;
+  text-align: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px 8px;
+  font-size: 25px;
+  color: black;
+  font-weight: 900;
+  overflow: hidden;
+}
+
+#first-calculator-basic .container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid #999;
+}
+
+#first-calculator-basic .container .buttons .button {
+  width: calc(100% / 12 * 2.9);
+  height: 70px;
+  text-align: center;
+  border: 1px solid #999;
+  line-height: 70px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+#first-calculator-basic .container .buttons .button:hover {
+  background-color: black;
+  color: white;
+}
+
+#first-calculator-basic .container .buttons .button.result {
+  background-color: orange;
+}
+
+#first-calculator-basic .container .buttons .button.result:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
