@@ -20,17 +20,17 @@ function customSome(array) {
 }
 console.log(customSome([1, 4, 7, 19]));
 
-const arr = [5, 4, 6, 7];
-function customEvery(arr, func) {
-  for (let i = 0; i < arr.length; i++) {
-    if (func(arr[i]) == false) {
+const array = [5, 4, 6, 7];
+function customEvery(array, func) {
+  for (let i = 0; i < array.length; i++) {
+    if (func(array[i]) == false) {
       return false;
     }
   }
   return true;
 }
 console.log(
-  customEvery(arr, (item) => {
+  customEvery(array, (item) => {
     return item > 5;
   })
 );
