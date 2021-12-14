@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+#flik-flak {
+  margin-top: 200px;
+}
+
+#flik-flak .box {
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: gray;
+  transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#flik-flak button {
+  margin-bottom: 50px;
+  height: 30px;
+  width: 200px;
+  border: none;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.aqua {
+  background-color: aqua;
+}
+.green {
+  background-color: green;
+}

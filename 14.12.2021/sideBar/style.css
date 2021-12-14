@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: white;
+}
+#navbar {
+  width: 1225px;
+  background-color: gray;
+  transform: translateY(-100%);
+  position: relative;
+  transition: all 1s;
+}
+.box {
+  text-align: center;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar .close-button {
+  position: absolute;
+  left: 97%;
+  top: 2%;
+}
+
+#navbar .close-button button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: gray;
+  color: white;
+  transition: all 0.5s;
+}
+
+#navbar .close-button button:hover {
+  background-color: black;
+}
+
+.nav-button {
+  position: absolute;
+  top: 0%;
+  left: 90%;
+}
+
+.nav-button a {
+  color: #444444;
+}
+
+.nav-button button {
+  width: 50px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+.nav-button button i {
+  margin: auto;
+}
+
+.nav-button button:hover {
+  background-color: gray;
+}
