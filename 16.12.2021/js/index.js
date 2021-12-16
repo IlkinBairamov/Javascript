@@ -9,6 +9,15 @@ let bigImg = document.querySelector(".popup .inner img");
 let prevBtn = document.querySelector(".arrows .prev");
 let nextBtn = document.querySelector(".arrows .next");
 
+let c = 45;
+
+function draw() {
+  document.documentElement.style.setProperty("--direction", c++ + "deg");
+  requestAnimationFrame(draw);
+}
+
+requestAnimationFrame(draw);
+
 loginBtn.addEventListener("click", () => {
   if (inputName.value.split("").some((item) => item !== " ")) {
     login.style.transform = "translateY(100%)";
