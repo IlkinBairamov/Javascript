@@ -1,0 +1,30 @@
+#gallery {
+  left: 0;
+  position: absolute;
+  transition: all 1s;
+  height: 100vh;
+  display: none;
+  .welcome-title {
+    margin-top: 50px;
+  }
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 120px;
+    row-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    a {
+      overflow: hidden;
+      position: relative;
+      img {
+        transition: 0.8s;
+        position: relative;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
