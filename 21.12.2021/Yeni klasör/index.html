@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/4837e6de66.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./scss/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="form">
+      <div class="container">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" class="input-name" id="name" />
+          <label for="surname">Surname</label>
+          <input type="text" class="input-surname" id="surname" />
+          <label for="salary">Salary</label>
+          <input type="text" class="input-salary" id="salary" />
+          <i class="fas fa-upload"></i>
+          <input type="file" class="file" multiple />
+          <span>Choose Photo</span>
+        </form>
+      </div>
+    </section>
+
+    <section id="tablo">
+      <div class="container">
+        <table class="table mt-5">
+          <thead>
+            <tr>
+              <th scope="col">Photo</th>
+              <th scope="col">Name</th>
+              <th scope="col">Surname</th>
+              <th scope="col">Salary</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </section>
+
+    <div class="popup">
+      <div class="inner">
+        <div class="slider-image">
+          <img class="img-fluid" id="image" src="" alt="small-image" />
+        </div>
+        <div class="close">
+          <i class="far fa-times-circle"></i>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
