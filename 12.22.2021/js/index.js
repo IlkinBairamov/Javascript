@@ -66,6 +66,7 @@ removeIcon.forEach(icon=>{
         icon.parentElement.parentElement.remove()
         let idRemove=icon.getAttribute("data-id")
         Delete(idRemove);
+        counter()
     })
 })
 
